@@ -144,9 +144,9 @@ export class LibraryInfoContainer {
         });
     }
     
-    public renderInto(parent: HTMLElement) {
-        this.infoDiv.renderInto(parent);
-        this.infoIcon.renderInto(parent);
+    public renderInto(_parent: HTMLElement) {
+        // this.infoDiv.renderInto(parent);
+        // this.infoIcon.renderInto(parent);
     }
 }
 //#endregion
