@@ -51,71 +51,71 @@ export class Html5QrcodeStrings {
 export class Html5QrcodeScannerStrings {
 
     public static scanningStatus(): string {
-        return "Scanning";
+        return "扫描中";
     }
 
     public static idleStatus(): string {
-        return "Idle";
+        return "等待";
     }
 
     public static errorStatus(): string {
-        return "Error";
+        return "错误";
     }
 
     public static permissionStatus(): string {
-        return "Permission";
+        return "权限";
     }
 
     public static noCameraFoundErrorStatus(): string {
-        return "No Cameras";
+        return "无摄像头";
     }
 
     public static lastMatch(decodedText: string): string {
-        return `Last Match: ${decodedText}`;
+        return `最后匹配: ${decodedText}`;
     }
 
     public static codeScannerTitle(): string {
-        return "Code Scanner";
+        return "扫描器";
     }
 
     public static cameraPermissionTitle(): string {
-        return "Request Camera Permissions";
+        return "开启摄像头权限";
     }
 
     public static cameraPermissionRequesting(): string {
-        return "Requesting camera permissions...";
+        return "正在开启摄像头权限";
     }
 
     public static noCameraFound(): string {
-        return "No camera found";
+        return "未发现摄像头";
     }
 
     public static scanButtonStopScanningText(): string {
-        return "Stop Scanning";
+        return "停止扫描";
     }
 
     public static scanButtonStartScanningText(): string {
-        return "Start Scanning";
+        return "开始扫描";
     }
 
     public static torchOnButton(): string {
-        return "Switch On Torch";
+        return "打开手电筒";
     }
 
     public static torchOffButton(): string {
-        return "Switch Off Torch";
+        return "关闭手电筒";
     }
 
     public static torchOnFailedMessage(): string {
-        return "Failed to turn on torch";
+        return "无法打开手电筒";
     }
 
     public static torchOffFailedMessage(): string {
-        return "Failed to turn off torch";
+        return "无法关闭手电筒";
     }
 
     public static scanButtonScanningStarting(): string {
-        return "Launching Camera...";
+        return "正在启动摄像头";
     }
 
     /**
@@ -124,7 +124,7 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to file based scanning.
      */
     public static textIfCameraScanSelected(): string {
-        return "Scan an Image File";
+        return "选择二维码图片";
     }
 
     /**
@@ -133,36 +133,36 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to camera based scanning.
      */
     public static textIfFileScanSelected(): string {
-        return "Scan using camera directly";
+        return "直接使用相机扫描";
     }
 
     public static selectCamera(): string {
-        return "Select Camera";
+        return "选择相机";
     }
 
     public static fileSelectionChooseImage(): string {
-        return "Choose Image";
+        return "选择图片";
     }
 
     public static fileSelectionChooseAnother(): string {
-        return "Choose Another";
+        return "选择另一个";
     }
 
     public static fileSelectionNoImageSelected(): string {
-        return "No image choosen";
+        return "未选择图像";
     }
 
     /** Prefix to be given to anonymous cameras. */
     public static anonymousCameraPrefix(): string {
-        return "Anonymous Camera";
+        return "匿名摄像头";
     }
 
     public static dragAndDropMessage(): string {
-        return "Or drop an image to scan";
+        return "或放置要扫描的图像";
     }
 
     public static dragAndDropMessageOnlyImages(): string {
-        return "Or drop an image to scan (other files not supported)";
+        return "或删除要扫描的图像";
     }
 }
 
